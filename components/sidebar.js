@@ -110,7 +110,7 @@ export default function Sidebar() {
 						categories.map((category, i) => {
 							return (
 								<li key={i}>
-									<Link href={`${category.uri}`} key={category.id} className='sidebar-links' activeClassName="active">{category.name}</Link>
+									<Link href={`${category.uri}`} key={category.id} className='sidebar-links'>{category.name}</Link>
 								</li>
 							);
 						})
