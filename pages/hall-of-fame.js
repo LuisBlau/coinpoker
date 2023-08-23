@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import Hof from "../components/hall-of-fame/Hof";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -98,7 +99,7 @@ const halloffame = () => {
                                 </div>
                             </div>
                             <div className="col-lg-12  text-center py-4">
-                                <a href="/krill-leaderboard" className="btn btn-outline-warning">GO TO KRILL LEADERBOARD</a>
+                                <Link href="/krill-leaderboard" className="btn btn-outline-warning">GO TO KRILL LEADERBOARD</Link>
                             </div>
                         </div>
                     </section>
