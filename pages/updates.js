@@ -1,7 +1,7 @@
 import React from "react";
 // import Seo from "../components/seo"
-import ContentLayout from "../components/content-layout";
-import UpdateTeaser from "../components/updateteaser";
+import ContentLayout from "../components/ContentLayout";
+import UpdateTeaser from "../components/UpdateTeaser";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 

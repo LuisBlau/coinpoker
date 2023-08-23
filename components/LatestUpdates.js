@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import UpdateTeaser from './updateteaser';
+import UpdateTeaser from './UpdateTeaser';
 
 export default function LatestUpdates() {
 

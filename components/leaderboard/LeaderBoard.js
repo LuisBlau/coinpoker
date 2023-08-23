@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import _ from 'lodash';
-import LeaderboardTable from "../leaderboard/table";
+import LeaderBoardTable from "./LeaderBoardTable";
 // import { leaderBoardService } from '../../services';
 
 export default function LeaderBoard({when, title, color, tableClassName}) {
 
-    const [leaderboard, setLeaderboard] = useState(null);
+    const [leaderBoard, setLeaderBoard] = useState(null);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -139,7 +139,7 @@ export default function LeaderBoard({when, title, color, tableClassName}) {
                     });
                 }
                 setLoading(false);
-                setLeaderboard(res);
+                setLeaderBoard(res);
             } catch (e) {
                 console.log("error fetching data leaderboard last month " + e);
             }
@@ -151,7 +151,7 @@ export default function LeaderBoard({when, title, color, tableClassName}) {
     return (
         <div>
             <div>
-                <LeaderboardTable tableClassName={tableClassName} type={when} data={leaderboard} title={title}
+                <LeaderBoardTable tableClassName={tableClassName} type={when} data={leaderBoard} title={title}
                                   color={color ? color : ''} loading={loading}/>
             </div>
         </div>

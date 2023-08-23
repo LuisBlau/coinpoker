@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import TournamentRow from './row';
+import TournamentRow from './TournamentRow';
 // import { ApiService } from '../../services';
 
 export default function UpcomingTournaments(props) {

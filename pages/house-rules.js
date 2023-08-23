@@ -1,5 +1,5 @@
 import React from "react";
-import ContentLayout from "../components/content-layout";
+import ContentLayout from "../components/ContentLayout";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Accordion from 'react-bootstrap/Accordion';

@@ -12,8 +12,8 @@ import UserContext from '@/store/UserContext';
 // import styles from '@/styles/Home.module.css';
 import {numberWithCommas} from '@/utility/format';
 import Footer from "../components/Footer";
-import UpcomingTournaments from "../components/tournament/upcoming";
-import LatestUpdates from "../components/latestupdates";
+import UpcomingTournaments from "../components/tournament/UpcomingTournaments";
+import LatestUpdates from "../components/LatestUpdates";
 
 import bitcoinImage from "@/public/bitcoin-img.webp";
 

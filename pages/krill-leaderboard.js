@@ -1,5 +1,5 @@
 import React from "react";
-import LeaderBoard from "../components/leaderboard/leaderboard";
+import LeaderBoard from "../components/leaderboard/LeaderBoard";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 // import Seo from "../components/seo"

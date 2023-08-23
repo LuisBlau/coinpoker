@@ -1,7 +1,7 @@
 import React from 'react';
 
 const formatNumber = n => n.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
-function LeaderboardTable(props) {
+function LeaderBoardTable(props) {
     return (
         <>
             <table className={props.tableClassName}>
@@ -40,4 +40,4 @@ function LeaderboardTable(props) {
     )
 }
 
-export default LeaderboardTable;
+export default LeaderBoardTable;

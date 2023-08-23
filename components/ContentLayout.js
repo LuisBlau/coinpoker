@@ -1,6 +1,6 @@
 import React from 'react';
-import Sidebar from "./sidebar";
-import LatestPosts from "./latest-posts"
+import Sidebar from "./Sidebar";
+import LatestPosts from "./LatestPosts"
 
 const ContentLayout = (props) => {
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import parse from "html-react-parser";
 import Link from 'next/link';
-import ContentLayout from "../components/content-layout";
+import ContentLayout from "../components/ContentLayout";
 import Footer from "../components/Footer";
 import Header from '@/components/Header';
 // import Seo from "../components/seo"
