@@ -360,8 +360,8 @@ export default function Header() {
                         <div className="collapse navbar-collapse ml-auto" id="navmenu">
                             <Menu menu={mainMenuEntries} showHome={true} setHamburgerOpen={setHamburgerOpen} />
                             <div className="get-button">
-                                <a href="/download" className="btn btn-download">Download</a>
-                                <a href="https://play.swcpoker.club" className="btn btn-playnow">Play Now</a>
+                                <Link href="/download" className="btn btn-download">Download</Link>
+                                <Link href="https://play.swcpoker.club" className="btn btn-playnow">Play Now</Link>
                             </div>
                         </div>
                     </div>

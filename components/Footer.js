@@ -19,13 +19,13 @@ export default function Footer() {
                     </div>
                     <div className="copyright">
                         © {new Date().getFullYear()}  SWC POKER • ALL RIGHTS RESERVED &nbsp; &nbsp;
-                        <a href="https://twitter.com/SwCPoker" rel="noreferrer" target="_blank" title="SwC Poker on Twitter" className="footer__social-button">
+                        <Link href="https://twitter.com/SwCPoker" rel="noreferrer" target="_blank" title="SwC Poker on Twitter" className="footer__social-button">
                             <Image src={twitterIcon} alt="swc twitter" loading="eager" placeholder="none" width={20} height={20} />
-                        </a>
+                        </Link>
                         &nbsp;
-                        <a href="https://bitcointalk.org/index.php?topic=5068812" rel="noreferrer" target="_blank" title="SwC Poker on Bitcoin Talk" className="footer__social-button">
+                        <Link href="https://bitcointalk.org/index.php?topic=5068812" rel="noreferrer" target="_blank" title="SwC Poker on Bitcoin Talk" className="footer__social-button">
                             <Image src={bitcointalkIcon} alt="swc bitcoin" loading="eager" placeholder="none" width={20} height={20} />
-                        </a>
+                        </Link>
 
                     </div>
                 </div>
@@ -54,8 +54,8 @@ export default function Footer() {
                                 </p>
                             </div>
                             <div className="get-button">
-                                <a rel="nofollow" href="/play" className="btn playnow">Play Now</a>
-                                <a rel="nofollow" href="/download" className="btn btn-download">Download</a>
+                                <Link rel="nofollow" href="/play" className="btn playnow">Play Now</Link>
+                                <Link rel="nofollow" href="/download" className="btn btn-download">Download</Link>
                             </div>
                         </div>
                     </div>
@@ -64,68 +64,68 @@ export default function Footer() {
                 <div className="footer-links">
                     <ul>
                         <li>
-                            <a rel="nofollow" href="/problem-gambling">
+                            <Link rel="nofollow" href="/problem-gambling">
                                 Problem Gambling
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/promotions">
+                            <Link rel="nofollow" href="/promotions">
                                 Promotions
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/faq">
+                            <Link rel="nofollow" href="/faq">
                                 FAQ
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/updates">
+                            <Link rel="nofollow" href="/updates">
                                 Updates
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/poker-rules">
+                            <Link rel="nofollow" href="/poker-rules">
                                 Poker Rules
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/krill-leaderboard">
+                            <Link rel="nofollow" href="/krill-leaderboard">
                                 Leaderboard
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/affiliates">
+                            <Link rel="nofollow" href="/affiliates">
                                 Affiliates
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/hall-of-fame">
+                            <Link rel="nofollow" href="/hall-of-fame">
                                 Hall of Fame
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/house-rules">
+                            <Link rel="nofollow" href="/house-rules">
                                 House Rules
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/">
+                            <Link rel="nofollow" href="/">
                                 Download
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="mailto:support@swcpoker.club" className="footer__link" title="support@swcpoker.club">Support</a>
+                            <Link rel="nofollow" href="mailto:support@swcpoker.club" className="footer__link" title="support@swcpoker.club">Support</Link>
                         </li>
                         <li>
-                            <a rel="nofollow" href="/skins">
+                            <Link rel="nofollow" href="/skins">
                                 Skins
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
 
                 <div className="sub-footer text-center">
-                    Back up email: <a rel="nofollow" href="mailto:swc_support_team@proton.me">swc_support_team@proton.me</a>
+                    Back up email: <Link rel="nofollow" href="mailto:swc_support_team@proton.me">swc_support_team@proton.me</Link>
                 </div>
             </div>
 
