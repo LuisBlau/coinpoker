@@ -74,28 +74,28 @@ export default function Sidebar() {
 					<h4>Menu</h4> 
 					<ul>
 						<li>
-							<Link href={`/house-rules`} className='sidebar-links' activeClassName="active">House Rules </Link>
+							<Link href={`/house-rules`} className='sidebar-links'>House Rules </Link>
 						</li>
 						<li>
-							<Link href={`/poker-rules`} className='sidebar-links' activeClassName="active">Poker Game Rules </Link>
+							<Link href={`/poker-rules`} className='sidebar-links'>Poker Game Rules </Link>
 						</li>
 						<li>
-							<Link href={`/hand-rankings`} className='sidebar-links' activeClassName="active">Hand Rankings</Link>
+							<Link href={`/hand-rankings`} className='sidebar-links'>Hand Rankings</Link>
 						</li>
 						<li>
-							<Link href={`/game-betting-styles`} className='sidebar-links' activeClassName="active">Game & Betting Styles </Link>
+							<Link href={`/game-betting-styles`} className='sidebar-links'>Game & Betting Styles </Link>
 						</li>
 						<li>
-							<Link href={`/faq`} className='sidebar-links' activeClassName="active">FAQ </Link>
+							<Link href={`/faq`} className='sidebar-links'>FAQ </Link>
 						</li>
 						<li>
-							<Link href={`/promotions`} className='sidebar-links' activeClassName="active">Promotions</Link>
+							<Link href={`/promotions`} className='sidebar-links'>Promotions</Link>
 						</li>
 						<li>
-							<Link href={`/updates`} className='sidebar-links' activeClassName="active">Updates</Link>
+							<Link href={`/updates`} className='sidebar-links'>Updates</Link>
 						</li>					
 						<li>
-							<Link href={`/download`} className='sidebar-links' activeClassName="active">Download</Link>
+							<Link href={`/download`} className='sidebar-links'>Download</Link>
 						</li>
 						<li>
 							<Link href="/play" className='sidebar-links'>Play Now </Link>

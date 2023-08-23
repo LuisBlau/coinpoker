@@ -37,7 +37,7 @@ export default function BadBeatJackpot() {
                             <h3>Bad Beat</h3>
                             <span>
                                 <Image src={jackpotText} alt="jackpot" width="86" height="20"
-                                       layout="fixed" loading="eager" placeholder="none"/>
+                                       loading="eager" placeholder="none"/>
                             </span>
                         </div>
                         <div className="btc-currency">
