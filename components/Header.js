@@ -5,8 +5,8 @@ import {useRouter} from 'next/router';
 import {isMobileOnly as isMobile} from 'react-device-detect'
 import Menu from "./Menu";
 import KrillKing from "./Krillking";
-import OnlinePlayers from "./Onlineplayers";
-import BadBeatJackpot from "./Badbeatjackpot";
+import OnlinePlayers from "./OnlinePlayers";
+import BadBeatJackpot from "./BadBeatJackpot";
 import UserContext from "@/store/UserContext";
 // import styles from './Header.module.css';
 
