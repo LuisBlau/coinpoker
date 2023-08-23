@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import UpdateTeaser from './updateteaser';
 
 export default function LatestPosts() {
@@ -143,7 +144,7 @@ export default function LatestPosts() {
 							}
 						</div>
 						<div className="get-button">
-							<a href="/promotions" className="btn btn-play">View More</a>
+							<Link href="/promotions" className="btn btn-play">View More</Link>
 						</div>
 					</div>
 				</div>
