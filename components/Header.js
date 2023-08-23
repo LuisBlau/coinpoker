@@ -4,9 +4,9 @@ import Link from 'next/link';
 import {useRouter} from 'next/router';
 import {isMobileOnly as isMobile} from 'react-device-detect'
 import Menu from "./Menu";
-import KrillKing from "./krillking";
-import OnlinePlayers from "./onlineplayers";
-import BadBeatJackpot from "./badbeatjackpot";
+import KrillKing from "./Krillking";
+import OnlinePlayers from "./Onlineplayers";
+import BadBeatJackpot from "./Badbeatjackpot";
 import UserContext from "@/store/UserContext";
 // import styles from './Header.module.css';
 
